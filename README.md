@@ -20,14 +20,14 @@ simple university api in golang
 ###### UPDATE  http://localhost:4321/api/v1.0/teachers/:sid  update specific teachers
 ###### DELETE  http://localhost:4321/api/v1.0/teachers/:sid  delete specific teachers
 
-###### GET     http://localhost:4321/api/v1.0/class/students/:sid       get all class specific students
+###### GET     http://localhost:4321/api/v1.0/class/students/:sid       get all class for specific students
 ###### GET     http://localhost:4321/api/v1.0/class/students/:sid/:cid  get specific class for specific students
-###### POST    http://localhost:4321/api/v1.0/class/students/:sid/:cid      add new class for students
+###### POST    http://localhost:4321/api/v1.0/class/students/:sid/:cid  add new class for students
 ###### DELETE  http://localhost:4321/api/v1.0/class/students/:sid/:cid  delete specific class for specific students
 
 
-###### GET     http://localhost:4321/api/v1.0/class/teachrs/       get specific teacher
-###### GET     http://localhost:4321/api/v1.0/class/teacher/:tid   get specific teacher
-###### POST    http://localhost:4321/api/v1.0/class/teacher/:tid       create new class by specific teacher
-###### UPDATE  http://localhost:4321/api/v1.0/class/teachers/:tid  update specific teachers
-###### DELETE  http://localhost:4321/api/v1.0/class/teachers/:tid  delete specific class for specific teachers
+###### GET     http://localhost:4321/api/v1.0/class/teachrs/:tid            get all class that created by specific teacher
+###### GET     http://localhost:4321/api/v1.0/class/teacher/:tid/:cid       get specific class that created by specific teacher
+###### POST    http://localhost:4321/api/v1.0/class/teacher/:tid            create new class by specific teacher
+###### UPDATE  http://localhost:4321/api/v1.0/class/teachers/:tid           update specific class by teachers that created it
+###### DELETE  http://localhost:4321/api/v1.0/class/teachers/:tid           delete specific class by teachers that created it
