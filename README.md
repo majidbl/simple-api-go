@@ -31,3 +31,7 @@ simple university api in golang
 ###### POST    http://localhost:4321/api/v1.0/class/teacher/:tid            create new class by specific teacher
 ###### UPDATE  http://localhost:4321/api/v1.0/class/teachers/:tid           update specific class by teachers that created it
 ###### DELETE  http://localhost:4321/api/v1.0/class/teachers/:tid           delete specific class by teachers that created it
+
+
+## Notice
+###### data must be sending in json format...
